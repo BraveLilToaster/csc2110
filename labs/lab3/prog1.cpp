@@ -9,9 +9,10 @@ int main() {
 
 }
 
+//converts text to number
 void convertNumber() {
     string phoneNumber;
-    cout << "Enter a phone Number to be converted to text: ";
+    cout << "Enter a text to be converted to a phone number: ";
     cin >> phoneNumber;
     for(int i = 0; i < 7; i ++) {
         char c = phoneNumber[i];
